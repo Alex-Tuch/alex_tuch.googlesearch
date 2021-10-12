@@ -1,0 +1,123 @@
+a {
+    color: black;
+    text-decoration: none;
+    line-height: 24px;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    text-align: center;
+   
+}
+ html {
+    background-image: url(img/1.jpg);
+ }
+
+.panel {
+    margin-left: 75%;
+    margin-top: 1%;
+}
+
+.text-input {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 24px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    width: 584px;
+    text-align: left;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.adv_search_fields {
+    border-radius: 0;
+    border: 1px solid grey;
+    width: 550px;
+    height: 20px;
+}
+
+
+.logo_google {
+    position: relative;
+    top: -20px;
+    right: 45%;
+
+}
+
+.logo_size {
+    height: px;
+    width: 80px;
+}
+
+.line {
+    border-top: 1px solid grey;
+    width: 2500px;
+}
+
+h2 {
+    color: rgb(148, 9, 9);
+    font-size: 1.5rem;
+}
+
+table {
+    text-align: left;
+    padding-left: 10px;
+}
+td {
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.avd_name {
+    position: relative;
+    right: 35%;
+}
+
+.how_its_made {
+    color: rgb(75, 74, 74);
+    font-weight: 1000;
+}
+
+.adv_button {
+    background-color: #4d90fe;
+    color: white;
+    font-weight: 700;
+    width: 100px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+}

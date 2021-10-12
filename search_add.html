@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="css/search.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="panel">
+            <a href="index.html">Google поиск</a>
+        </div>
+
+        <div class="logo_google">
+            <a href="index.html"> <img class="logo_size" src="img/logo_google.png"></a>
+        </div>
+        <div class="avd_name"><h2> Расширеный поиск </h2> </div>
+        <div class="line"> </div>
+        
+        <table>
+            <tr>
+                <td>
+                    <h3>Найти страницы</h3>
+                </td>
+                <td></td>
+                <td class="how_its_made">Как это работает в обычном поиске</td>
+            </tr>
+            <tr>
+                <td>со словами: </td>
+                <td>
+                    <form id="example" action="https://google.com/search">
+                        <input class="adv_search_fields" type="text" name="as_q">
+                    </form>
+                </td>
+                <td>Введите ключевые слова: Иван Федорович Крузенштерн</td>
+            </tr>
+            <tr>
+                <td>со словосочетанием: </td>
+                <td>
+                    <form id="example" action="https://google.com/search">
+                        <input class="adv_search_fields" type="text" name="as_epq">
+                    </form>
+                </td>
+                <td>Заключите словосочетание в кавычки: "книга Иван Крузенштерн"</td>
+            </tr>
+            <tr>
+                <td>с любым из этих слов: </td>
+                <td>
+                    <form id="example" action="https://google.com/search">
+                        <input class="adv_search_fields" type="text" name="as_oq">
+                    </form>
+                </td>
+                <td>Вставьте оператор OR между словами: человек OR пароход</td>
+            </tr>
+            <tr>
+                <td>без слов: </td>
+                <td>
+                    <form id="example" action="https://google.com/search">
+                        <input class="adv_search_fields" type="text" name="as_eq">
+                    </form>
+                </td>
+                <td>Поставьте знак минуса перед словами: -пароход, -"книга о пароходе"</td>
+            </tr>
+
+
+        </table>
+        <button class="adv_button" form="example" type="submit">Найти</button>
+    </div>
+
+
+    </div>
+</body>
+
+</body>
+
+</html>
